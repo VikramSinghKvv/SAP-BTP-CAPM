@@ -1,0 +1,52 @@
+###
+//http://localhost:4004/odata/v4/catalog/Books
+
+##
+//http://localhost:4004/odata/v4/catalog/Reviews
+
+//http://localhost:4004/odata/v4/catalog/Books?$filter=price gt 400
+//http://localhost:4004/odata/v4/catalog/Books?$orderby=price desc
+
+//http://localhost:4004/odata/v4/catalog/Books?$top=3
+
+//http://localhost:4004/odata/v4/catalog/Books?$select=title,price
+
+//http://localhost:4004/odata/v4/catalog/Authors?$select=name,country
+
+//http://localhost:4004/odata/v4/catalog/$metadata
+
+//GET http://localhost:4004/odata/v4/catalog/Books
+
+//GET http://localhost:4004/odata/v4/catalog/Books(1)
+
+
+# POST http://localhost:4004/odata/v4/catalog/Books
+# Content-Type: application/json
+
+# {
+#   "ID": 6,
+#   "title": "Learning SAP CAP",
+#   "author": "SAP Team",
+#   "price": 800,
+#   "stock": 100,
+#   "category": "Programming"
+# }
+
+
+# PATCH http://localhost:4004/odata/v4/catalog/Books(1)
+# Content-Type: application/json
+
+# {
+#   "price": 499,
+#   "stock": 25
+# }
+
+
+//DELETE http://localhost:4004/odata/v4/catalog/Books(6)
+
+//GET http://localhost:4004/odata/v4/catalog/Authors
+
+//GET http://localhost:4004/odata/v4/catalog/Books?$filter=category eq 'Programming'
+
+##
+GET http://localhost:4004/odata/v4/catalog/Reviews
