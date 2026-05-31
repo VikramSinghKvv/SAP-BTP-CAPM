@@ -1,0 +1,13 @@
+student_ID,courseCode,enrollmentDate,status,grade,gradePoints,attendancePercent
+S001,CS101,2025-01-10,Completed,A,10,92
+S001,CS201,2025-01-10,Enrolled,,0,88
+S002,CS101,2025-01-10,Completed,A,10,95
+S002,CS301,2025-01-10,Enrolled,,0,90
+S003,EC101,2025-01-10,Completed,B,8,85
+S003,EC201,2025-01-10,Enrolled,,0,87
+S004,EC101,2025-01-10,Completed,A,10,91
+S004,EC201,2025-01-10,Enrolled,,0,84
+S005,ME101,2025-01-10,Completed,B,8,80
+S006,CS201,2025-01-10,Enrolled,,0,89
+S007,EC201,2025-01-10,Enrolled,,0,82
+S008,ME101,2025-01-10,Enrolled,,0,86

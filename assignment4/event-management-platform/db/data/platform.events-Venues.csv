@@ -1,0 +1,4 @@
+ID,name,address,city,capacity,type,amenities,hourlyRate,contactPerson,phone,isActive
+V1,Tech Hall,MG Road,Bangalore,500,ConferenceHall,"WiFi,Projector",1000,John,9999999999,true
+V2,Grand Arena,CP,Delhi,2000,Auditorium,"AC,SoundSystem",5000,Ravi,8888888888,true
+V3,Virtual Hub,Online,Virtual,10000,Virtual,"Streaming,CloudTools",200,Anita,7777777777,true

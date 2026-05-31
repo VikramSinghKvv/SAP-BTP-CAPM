@@ -1,0 +1,6 @@
+ID,fromCity,toCity,distance,estimatedHours,tollCharges,isActive
+R1,Kanpur,Lucknow,90,2.5,100,TRUE
+R2,Delhi,Kanpur,450,8,500,TRUE
+R3,Bangalore,Chennai,350,6,400,TRUE
+R4,Mumbai,Delhi,1400,24,1500,TRUE
+R5,Lucknow,Varanasi,300,5,300,TRUE

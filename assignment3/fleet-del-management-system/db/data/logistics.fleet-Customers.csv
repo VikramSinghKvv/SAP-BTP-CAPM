@@ -1,0 +1,5 @@
+ID,name,company,phone,email,address,city,pincode,gstNumber,tier
+C1,ABC Corp,ABC Pvt Ltd,9991112222,abc@test.com,Indira Nagar,Kanpur,208001,GST123,Premium
+C2,XYZ Traders,XYZ Ltd,9992223333,xyz@test.com,MG Road,Delhi,110001,GST456,Regular
+C3,Global Tech,Global Tech,9993334444,global@test.com,Phase 2,Bangalore,560001,GST789,Enterprise
+C4,Fresh Mart,Fresh Mart,9994445555,fresh@test.com,Civil Lines,Lucknow,226001,GST000,Regular

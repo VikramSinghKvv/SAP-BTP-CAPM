@@ -1,0 +1,6 @@
+ID,registrationNumber,type,make,model,year,capacity,fuelType,status,mileage,insuranceExpiry
+V1,UP32AB1234,Bike,Honda,Activa,2022,120,Petrol,Available,15000
+V2,UP32AB5678,Van,Tata,Intra,2021,800,Diesel,Available,25000
+V3,UP32AB9999,Truck,Ashok Leyland,Partner,2020,5000,Diesel,Maintenance,60000
+V4,UP32AB8888,Truck,Tata,Signa,2023,7000,Diesel,OnTrip,20000
+V5,UP32AB7777,Trailer,Volvo,FMX,2019,20000,Diesel,Available,90000
