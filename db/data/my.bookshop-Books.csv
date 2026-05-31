@@ -1,0 +1,6 @@
+ID,title,author,price,stock,category
+1,Clean Code,Robert Martin,450,20,Programming
+2,The Pragmatic Programmer,David Thomas,550,15,Programming
+3,Sapiens,Yuval Noah Harari,400,30,History
+4,Atomic Habits,James Clear,350,50,Self-Help
+5,Node.js Design Patterns,Mario Casciaro,600,10,Programming
