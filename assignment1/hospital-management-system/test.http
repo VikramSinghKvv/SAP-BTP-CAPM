@@ -1,84 +1,9 @@
-### creating departement
-POST http://localhost:4004/odata/v4/hospital/Departments
-Content-Type: application/json
-
-{
-"name": "Cardiology",
-"floor": 1,
-"head": "Dr Rajesh Sharma",
-"capacity": 50,
-"phone": "9876543210"
-}
-
-### creating doctor
-POST http://localhost:4004/odata/v4/hospital/Doctors
-Content-Type: application/json
-
-{
-"firstName": "Rajesh",
-"lastName": "Sharma",
-"specialization": "Cardiology",
-"qualification": "MBBS MD",
-"experience": 12,
-"fee": 800,
-"department_ID": "PASTE_DEPARTMENT_ID_HERE",
-"phone": "9876500001",
-"email": "rajesh@hospital.com",
-"availableDays": "Mon,Tue,Wed"
-}
-
-### creating patient
-POST http://localhost:4004/odata/v4/hospital/Patients
-Content-Type: application/json
-
-{
-"firstName": "Rahul",
-"lastName": "Kumar",
-"dateOfBirth": "1995-05-15",
-"gender": "Male",
-"bloodGroup": "O_POS",
-"phone": "9877000001",
-"email": "rahul@gmail.com",
-"address": "Lucknow",
-"emergencyContact": "9877999991",
-"registrationDate": "2026-06-01"
-}
-
-### booking appointment
-POST http://localhost:4004/odata/v4/hospital/Appointments
-Content-Type: application/json
-
-{
-"patient_ID": "PASTE_PATIENT_ID_HERE",
-"doctor_ID": "PASTE_DOCTOR_ID_HERE",
-"appointmentDate": "2026-06-15",
-"appointmentTime": "10:30:00",
-"reason": "Chest Pain",
-"notes": "First Visit",
-"fee": 800
-}
-
-### puting medical record
-POST http://localhost:4004/odata/v4/hospital/MedicalRecords
-Content-Type: application/json
-
-{
-"patient_ID": "PASTE_PATIENT_ID_HERE",
-"doctor_ID": "PASTE_DOCTOR_ID_HERE",
-"appointment_ID": "PASTE_APPOINTMENT_ID_HERE",
-"diagnosis": "High Blood Pressure",
-"prescription": "Amlodipine 5mg",
-"testRecommended": "ECG",
-"recordDate": "2026-06-15"
-}
-
-
 ### 1. GET all doctors filtered by specialization
-GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiology'
+GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiologist'
 
 
 ### 2.GET appointments for a specific date
-GET http://localhost:4004/odata/v4/hospital/Appointments?$filter=appointmentDate eq 2026-06-15
+GET http://localhost:4004/odata/v4/hospital/Appointments?$filter=appointmentDate eq 2026-06-01
 
 ### 3. POST a new patient
 
@@ -123,11 +48,9 @@ GET http://localhost:4004/odata/v4/hospital/Appointments
 
 ### here status schedule now marking it as confirmed
 
-PATCH http://localhost:4004/odata/v4/hospital/Appointments('194ee240-9e00-4de0-ac96-d70c7879075d')
+PATCH http://localhost:4004/odata/v4/hospital/Appointments('a1111111-1111-1111-1111-111111111111')
 Content-Type: application/json
 
 {
   "status": "Completed"
 }
-
-// again you will check it will be marked as completed

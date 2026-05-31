@@ -1,6 +1,6 @@
 namespace platform.events;
 
-/* ---------- Reusable Types ---------- */
+
 type Email : String;
 type Phone : String;
 type Amount : Decimal(10,2);
@@ -8,7 +8,7 @@ type Rating : Decimal(2,1);
 type Name : String;
 type URL : String;
 
-/* ---------- Enums ---------- */
+
 type EventType : String enum {
   Conference; Workshop; Seminar; Webinar; Meetup;
 }
@@ -29,7 +29,6 @@ type VenueType : String enum {
   Auditorium; ConferenceHall; Outdoor; Virtual;
 }
 
-/* ---------- VENUES ---------- */
 entity Venues {
   key ID : String;
   name : Name;
@@ -45,7 +44,6 @@ entity Venues {
   
 }
 
-/* ---------- EVENTS ---------- */
 entity Events {
   key ID : String;
 
@@ -72,7 +70,6 @@ entity Events {
   tags : String;
 }
 
-/* ---------- SPEAKERS ---------- */
 entity Speakers {
   key ID : String;
 
@@ -90,9 +87,7 @@ entity Speakers {
   isActive : Boolean default true;
 }
 
-/* ---------- EVENT SPEAKERS (COMPOSITE KEY) ---------- */
 entity EventSpeakers {
-  /* FIXED: proper associations */
   key event : Association to Events;
   key speaker : Association to Speakers;
 
@@ -102,11 +97,9 @@ entity EventSpeakers {
   roomNumber : String;
 }
 
-/* ---------- REGISTRATIONS ---------- */
 entity Registrations {
   key ID : String;
 
-  /* FIXED */
   event : Association to Events;
 
   attendeeName : Name;
@@ -124,7 +117,6 @@ entity Registrations {
   paymentId : String;
 }
 
-/* ---------- FEEDBACK ---------- */
 entity Feedback {
   key ID : String;
 
