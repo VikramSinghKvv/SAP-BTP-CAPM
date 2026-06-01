@@ -44,7 +44,7 @@ Content-Type: application/json
 }
 
 ###5. Mark Shipment Delivered
-PATCH http://localhost:4004/odata/v4/logistics/Shipments(77777777-7777-7777-7777-777777777777)
+PATCH http://localhost:4004/odata/v4/logistics/Shipments(3867c3a7-c09b-48f6-a84c-2f33010ab882)
 Content-Type: application/json
 
 {
