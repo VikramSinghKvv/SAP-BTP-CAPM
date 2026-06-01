@@ -1,6 +1,3 @@
-###
-GET http://localhost:4004/odata/v4/LogisticsService/Vehicles
-
 ###1. Available Vehicles
 GET http://localhost:4004/odata/v4/logistics/Vehicles?$filter=status eq 'Available'
 
