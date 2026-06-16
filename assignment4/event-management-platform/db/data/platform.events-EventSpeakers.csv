@@ -1,0 +1,7 @@
+event_ID,speaker_ID,topic,sessionTime,sessionDuration,roomNumber
+E1,S1,AI Future,10:00:00,60,R1
+E1,S4,ML Trends,14:00:00,60,R2
+E2,S2,React Basics,11:00:00,90,R1
+E2,S5,Node APIs,15:00:00,60,R3
+E3,S3,Cloud Intro,12:00:00,60,R1
+E4,S4,Data Science,13:00:00,60,R2

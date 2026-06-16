@@ -1,0 +1,56 @@
+### 1. GET all doctors filtered by specialization
+GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiologist'
+
+
+### 2.GET appointments for a specific date
+GET http://localhost:4004/odata/v4/hospital/Appointments?$filter=appointmentDate eq 2026-06-01
+
+### 3. POST a new patient
+
+POST http://localhost:4004/odata/v4/hospital/Patients
+Content-Type: application/json
+
+{
+"firstName": "jites",
+"lastName": "Kumar",
+"dateOfBirth": "1995-05-15",
+"gender": "Male",
+"bloodGroup": "O_NEG",
+"phone": "9800000000",
+"email": "jitesh@gmail.com",
+"address": "gorakhpur",
+"emergencyContact": "9800000000",
+"registrationDate": "2026-08-01"
+}
+
+### 4.POST a new appointment
+
+POST http://localhost:4004/odata/v4/hospital/Appointments
+Content-Type: application/json
+
+{
+"patient_ID": "PASTE_PATIENT_ID_HERE",
+"doctor_ID": "PASTE_DOCTOR_ID_HERE",
+"appointmentDate": "2026-06-15",
+"appointmentTime": "10:30:00",
+"reason": "Chest Pain",
+"notes": "Second Visit",
+"fee": 500
+}
+
+### 5. patient filttered by blood group
+
+GET http://localhost:4004/odata/v4/hospital/Patients?$filter=bloodGroup eq 'O_POS'
+
+### checking all appointments before updating the status
+
+GET http://localhost:4004/odata/v4/hospital/Appointments
+
+### here status schedule now marking it as confirmed
+
+PATCH http://localhost:4004/odata/v4/hospital/Appointments('a1111111-1111-1111-1111-111111111111')
+Content-Type: application/json
+
+{
+  "status": "Completed"
+}

@@ -1,0 +1,7 @@
+code,title,description,credits,maxStudents,currentEnrolled,semester,departmentCode,professorId,schedule,roomNumber,isActive
+CS101,Programming Fundamentals,Introduction to Programming,4,60,3,1,CSE,P001,MWF 10:00-11:00,A101,true
+CS201,Data Structures,Linear and Non Linear Structures,4,50,2,3,CSE,P004,TTS 11:00-12:00,A102,true
+CS301,Database Systems,RDBMS Concepts,4,50,2,5,CSE,P001,MWF 12:00-01:00,A103,true
+EC101,Digital Electronics,Logic Gates and Circuits,4,60,2,1,ECE,P002,MWF 09:00-10:00,B101,true
+EC201,Communication Systems,Signals and Communication,4,50,2,3,ECE,P005,TTS 02:00-03:00,B201,true
+ME101,Engineering Mechanics,Basics of Mechanics,4,50,1,1,ME,P003,MWF 01:00-02:00,M101,true

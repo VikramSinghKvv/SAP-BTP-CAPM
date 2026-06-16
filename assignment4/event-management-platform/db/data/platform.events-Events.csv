@@ -1,0 +1,5 @@
+ID,title,description,eventType,venue_ID,startDate,endDate,startTime,endTime,maxAttendees,registeredCount,ticketPrice,status,organizerName,organizerEmail,tags
+E1,AI Summit,AI Conference,Conference,V1,2026-06-10,2026-06-11,10:00:00,18:00:00,500,0,1000,Draft,TechOrg,org@test.com,"AI,ML"
+E2,Web Workshop,React Workshop,Workshop,V2,2026-06-12,2026-06-12,09:00:00,17:00:00,300,0,500,Published,DevOrg,dev@test.com,"React,Node"
+E3,Cloud Meetup,AWS Meetup,Meetup,V3,2026-06-15,2026-06-15,11:00:00,15:00:00,1000,0,200,Published,CloudOrg,cloud@test.com,"AWS,Cloud"
+E4,Data Seminar,Data Science,Seminar,V1,2026-06-20,2026-06-20,10:00:00,16:00:00,400,0,300,Draft,DataOrg,data@test.com,"Data,ML"

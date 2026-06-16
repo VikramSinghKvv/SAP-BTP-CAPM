@@ -1,0 +1,9 @@
+ID,rollNumber,firstName,lastName,email,phone,dateOfBirth,admissionYear,currentSemester,cgpa,departmentCode,isActive
+S001,CSE2023001,Rahul,Kumar,rahul@techuni.edu,9877000001,2005-03-15,2023,5,8.6,CSE,true
+S002,CSE2023002,Anjali,Singh,anjali@techuni.edu,9877000002,2005-05-12,2023,5,9.1,CSE,true
+S003,ECE2023001,Rohit,Verma,rohit@techuni.edu,9877000003,2004-08-20,2023,5,8.2,ECE,true
+S004,ECE2023002,Pooja,Gupta,pooja@techuni.edu,9877000004,2005-02-10,2023,5,7.9,ECE,true
+S005,ME2023001,Vikram,Yadav,vikram@techuni.edu,9877000005,2004-09-18,2023,5,8.4,ME,true
+S006,CSE2024001,Sneha,Mishra,sneha@techuni.edu,9877000006,2006-01-25,2024,3,8.8,CSE,true
+S007,ECE2024001,Aman,Shukla,aman@techuni.edu,9877000007,2006-04-11,2024,3,7.8,ECE,true
+S008,ME2024001,Karan,Pandey,karan@techuni.edu,9877000008,2006-06-30,2024,3,8.0,ME,true
